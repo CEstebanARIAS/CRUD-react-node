@@ -6,9 +6,6 @@ import { useState, useEffect } from "react";
 import Axios from "axios";
 
 
-
-
-
 function App() {
   const [user_id, setUser_id] = useState();
   const [user_handle, setUser_Handler] = useState("");
