@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+.Datos{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.Datos input{
+  margin-left: 1rem;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  border: solid 0.5px gray;
+}
+.Buttons{
+  display: grid;
+  gap: 1rem;
+}
+.Datos button{
+  border-radius: 10px;
+  border: none;
+  background-color: bisque;
+  width: 5rem;
+  height: 2rem;
+  margin: auto;
+}
+
+.List{
+  margin: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.List th{
+  padding: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  border-bottom: 1px solid;
+}
+
+.windowModal button {
+  background-color: rgb(68, 68, 249);
+  color: white;
+  
+}
